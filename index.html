@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Virtual Concrete</title>
+<meta name="description" content="Virtual Concrete is a new media art collective working with architecture, light and lasers.">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="Virtual Concrete">
+<meta property="og:description" content="New media art collective. Architecture, light, lasers.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/site.css">
+<script type="module" src="assets/tui/screen.js"></script>
+<noscript><style>.hero .sr-only { position: static; width: auto; height: auto; clip-path: none; white-space: normal; padding: 0 24px; color: #0f0; font-size: 40px; } .hero h1 { padding-top: 30svh; }</style></noscript>
+</head>
+<body>
+<main>
+  <!-- As tall as the hero plus the screen's scroll: the hero, menu included, stays put meanwhile -->
+  <div class="hero-track" id="hero-track">
+    <section class="hero" id="hero">
+      <nav aria-label="Main">
+        <a href="#work">Work</a>
+        <a href="#lab">Lab</a>
+      </nav>
+      <!-- The text of the 128x64 screen, typed and then scrolled to: edit it here -->
+      <h1 class="sr-only" id="screen-text">VIRTUAL CONCRETE STUDIO</h1>
+      <p class="sr-only" id="screen-text-next">SPATIAL DESIGN &amp; <span lang="it">TECNOLOGIE ILLUMINOTECNICHE APPLICATE</span></p>
+      <!-- Pinned with the hero, shown below the title's black. Encoded from M25-0002_V2-0029.mov: see README -->
+      <video class="hero-video" src="assets/video/hero.mp4" autoplay muted loop playsinline aria-hidden="true"></video>
+      <div class="hero-cover" id="hero-cover"></div>
+      <canvas id="screen" aria-hidden="true"></canvas>
+    </section>
+  </div>
+
+  <section class="work" id="work">
+    <p class="label">~/work</p>
+    <article class="project">
+      <a class="shot" href="dumbo/" tabindex="-1" aria-hidden="true">
+        <img src="assets/img/dumbo.webp" width="1280" height="720" alt="" loading="lazy">
+      </a>
+      <div>
+        <h2><a href="dumbo/">DumBO</a></h2>
+        <p>A study for a laser installation, simulated inside a photogrammetry scan of the space. Walk under it in your browser.</p>
+        <dl>
+          <dt>type</dt><dd>installation study</dd>
+          <dt>year</dt><dd>2024</dd>
+          <dt>rig</dt><dd>5 bars, 20 RGB lasers</dd>
+          <dt>shows</dt><dd>6, written in code</dd>
+        </dl>
+        <a class="enter" href="dumbo/">Enter the simulation →</a>
+      </div>
+    </article>
+
+    <!-- Thumbnails: drop them in assets/img/ with these names; any aspect ratio, cropped to 16:9 -->
+    <article class="project">
+      <a class="shot" href="exdynamo/" tabindex="-1" aria-hidden="true">
+        <img src="assets/img/exdynamo.webp" width="1280" height="720" alt="" loading="lazy">
+      </a>
+      <div>
+        <h2><a href="exdynamo/">ExDynamo</a></h2>
+        <dl>
+          <dt>year</dt><dd>2025</dd>
+        </dl>
+        <a class="enter" href="exdynamo/">See the project →</a>
+      </div>
+    </article>
+
+    <article class="project">
+      <a class="shot" href="galvoscanners/" tabindex="-1" aria-hidden="true">
+        <img src="assets/img/galvoscanners.webp" width="1280" height="720" alt="" loading="lazy">
+      </a>
+      <div>
+        <h2><a href="galvoscanners/">Galvoscanners</a></h2>
+        <dl>
+          <dt>rig</dt><dd>galvo scanners</dd>
+        </dl>
+        <a class="enter" href="galvoscanners/">See the project →</a>
+      </div>
+    </article>
+
+    <article class="project">
+      <a class="shot" href="link2/" tabindex="-1" aria-hidden="true">
+        <img src="assets/img/link2.webp" width="1280" height="720" alt="" loading="lazy">
+      </a>
+      <div>
+        <h2><a href="link2/">Link2.0</a></h2>
+        <dl>
+          <dt>rig</dt><dd>3 moving heads, 3 smoke machines</dd>
+        </dl>
+        <a class="enter" href="link2/">See the project →</a>
+      </div>
+    </article>
+  </section>
+
+  <section class="lab" id="lab">
+    <p class="label">~/lab</p>
+    <ul>
+      <li>
+        <a href="https://github.com/VirtualConcrete/HUB12Controller">
+          <strong>HUB12 Controller</strong>
+          <span>DMX driver for HUB12 LED displays</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/VirtualConcrete/SmokeMachine">
+          <strong>Smoke Control</strong>
+          <span>DMX control for smoke and fog machines</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>Virtual Concrete</p>
+  <a href="https://github.com/VirtualConcrete">GitHub ↗</a>
+</footer>
+</body>
+</html>

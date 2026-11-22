@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DumBO · Virtual Concrete</title>
+<meta name="description" content="Interactive laser installation simulation inside a 3D scan of DumBO.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script type="importmap">{"imports":{"three":"./lib/three/three.module.min.js"}}</script>
+<script type="module" src="js/main.js"></script>
+</head>
+<body>
+<canvas id="view" aria-label="3D laser simulation inside DumBO. Drag to look, W A S D to move."></canvas>
+
+<header>
+  <p><a href="../">← Virtual Concrete</a></p>
+  <h1>DumBO</h1>
+</header>
+
+<p id="status" role="status">Loading the space…</p>
+
+<footer id="controls" hidden>
+  <p id="hint"></p>
+  <div class="row">
+    <button id="play" type="button">Pause</button>
+    <label>Show <select id="show"></select></label>
+    <input id="time" type="range" min="0" max="1" step="0.001" value="0" aria-label="Position in the show">
+    <div id="views" role="group" aria-label="Viewpoints"></div>
+    <label>House lights <input id="room" type="range" min="0" max="1" step="0.01" value="0"></label>
+  </div>
+</footer>
+
+<noscript><p class="noscript">This simulation needs JavaScript. <a href="../">Back to Virtual Concrete</a></p></noscript>
+
+<dialog id="warning">
+  <form method="dialog">
+    <h2>Flashing lights</h2>
+    <p>This show flashes more than three times per second. It may affect people with photosensitive epilepsy.</p>
+    <button value="cancel" autofocus>Go back</button>
+    <button value="play">Play the show</button>
+  </form>
+</dialog>
+</body>
+</html>

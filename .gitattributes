@@ -1,0 +1,5 @@
+# never let git convert line endings inside assets
+*.bin  binary
+*.glb  binary
+*.wasm binary
+*.webp binary
