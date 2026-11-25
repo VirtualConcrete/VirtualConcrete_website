@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="3812.685 589.890 866.409 487.355" class="plate-svg" aria-hidden="true" focusable="false">
+ <g stroke="rgba(232, 236, 239, 0.18)" stroke-width="0.45" stroke-dasharray="6 3 1.5 3" class="axes">
+  <line x1="4247.52" y1="589.89" x2="4247.52" y2="1077.24" />
+  <line x1="3812.68" y1="765.34" x2="4679.09" y2="765.34" />
+ </g>
+ <g id="layer-structure">
+  <polygon points="5863.28,765.34 5671.88,765.34 4495.15,765.34 4303.98,835.83 4303.98,623.74 5862.53,623.74 5863.28,765.34 5863.28,765.34" fill="none" stroke="#E8ECEF" stroke-width="0.85" stroke-linejoin="miter" />
+  <polygon points="4191.09,835.84 4191.09,623.74 2604.18,623.74 2604.18,835.84 2798.31,765.35 3996.43,765.35 4191.09,835.84 4191.09,835.84" fill="none" stroke="#E8ECEF" stroke-width="0.85" stroke-linejoin="miter" />
+  <rect x="4191.07" y="623.74" width="112.89" height="1019.78" fill="#111317" stroke="#E8ECEF" stroke-width="0.85" />
+  <rect x="4227.48" y="623.63" width="41.61" height="112.47" fill="#111317" stroke="#E8ECEF" stroke-width="0.85" />
+  <rect x="4227.48" y="623.75" width="41.61" height="69.95" fill="#111317" stroke="#E8ECEF" stroke-width="0.85" />
+  <g id="layer-service-existing" opacity="0.22">
+   <polyline points="734.51,765.22 876.25,765.22 876.25,739.86 3947.53,739.86" fill="none" stroke="#E8ECEF" stroke-width="0.85" stroke-linejoin="miter" stroke-linecap="butt" />
+   <rect x="3947.78" y="717.93" width="33.95" height="34.02" fill="#111317" stroke="#E8ECEF" stroke-width="0.85" />
+   <line x1="3964.76" y1="717.68" x2="3964.76" y2="623.50" stroke="#E8ECEF" stroke-width="0.85" stroke-linecap="butt" />
+   <polygon points="3948.81,623.75 3938.89,633.67 3948.81,643.59 3980.72,643.59 3990.64,633.67 3980.72,623.75 3948.81,623.75" fill="none" stroke="#E8ECEF" stroke-width="0.85" stroke-linejoin="miter" />
+   <line x1="3938.64" y1="632.26" x2="3990.89" y2="632.26" stroke="#E8ECEF" stroke-width="0.85" stroke-linecap="butt" />
+   <polygon points="3953.20,638.90 3956.34,635.77 3953.20,632.63 3950.07,635.77 3953.20,638.90" fill="none" stroke="#E8ECEF" stroke-width="0.85" stroke-linejoin="miter" />
+   <polygon points="3974.66,638.90 3977.80,635.77 3974.66,632.63 3971.53,635.77 3974.66,638.90" fill="none" stroke="#E8ECEF" stroke-width="0.85" stroke-linejoin="miter" />
+  </g>
+ </g>
+ <g id="layer-pvc">
+  <line x1="4198.88" y1="845.99" x2="4198.88" y2="951.59" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4196.38" y1="845.99" x2="4196.38" y2="951.59" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4262.95" y1="954.34" x2="4200.34" y2="954.34" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4262.95" y1="951.84" x2="4200.34" y2="951.84" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4264.33" y1="951.59" x2="4264.33" y2="935.86" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4266.82" y1="951.59" x2="4266.82" y2="935.86" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4297.01" y1="1324.03" x2="4297.01" y2="756.88" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4299.51" y1="1324.03" x2="4299.51" y2="756.88" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="3329.07" y1="754.38" x2="4179.46" y2="754.38" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="3329.07" y1="756.88" x2="4179.46" y2="756.88" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4199.67" y1="754.38" x2="4229.57" y2="754.38" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4199.67" y1="756.88" x2="4229.57" y2="756.88" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4233.12" y1="756.88" x2="4233.12" y2="778.94" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4230.62" y1="756.88" x2="4230.62" y2="778.94" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4233.12" y1="842.77" x2="4233.12" y2="873.36" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4230.62" y1="842.77" x2="4230.62" y2="873.36" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4264.33" y1="873.36" x2="4264.33" y2="842.77" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4266.82" y1="873.36" x2="4266.82" y2="842.77" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4247.03" y1="779.58" x2="4247.03" y2="758.15" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4249.53" y1="779.58" x2="4249.53" y2="758.15" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4250.95" y1="754.19" x2="4262.24" y2="754.19" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4250.95" y1="756.69" x2="4262.24" y2="756.69" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4264.33" y1="779.58" x2="4264.33" y2="756.60" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4266.82" y1="779.58" x2="4266.82" y2="756.60" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4268.41" y1="754.19" x2="4295.48" y2="754.19" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4268.41" y1="756.69" x2="4295.48" y2="756.69" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4314.41" y1="754.19" x2="4772.49" y2="754.19" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+  <line x1="4314.41" y1="756.69" x2="4772.49" y2="756.69" stroke-width="0.90" stroke-linecap="butt" style="--c:#989898" class="c" />
+ </g>
+ <g id="layer-boxes">
+  <rect x="4205.76" y="873.97" width="85.04" height="62.36" stroke-width="1.40" style="--c:#d56a16;--f:rgba(213, 106, 22, 0.08)" class="c f" />
+  <rect x="4205.76" y="779.66" width="85.04" height="62.36" stroke-width="1.40" style="--c:#d56a16;--f:rgba(213, 106, 22, 0.08)" class="c f" />
+ </g>
+ <g id="layer-cables">
+  <polyline points="4382.01,1324.58 4298.27,1324.58 4298.27,757.24 4772.27,757.24" fill="none" stroke-width="1.40" stroke-linejoin="miter" stroke-linecap="butt" style="--c:#fe20fe" class="c" />
+  <rect x="4227.02" y="872.11" width="9.35" height="1.30" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4227.02" y="936.90" width="9.35" height="1.30" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4227.70" y="871.06" width="8.00" height="1.11" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4227.70" y="938.14" width="8.00" height="1.11" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4243.61" y="872.11" width="9.35" height="1.30" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4243.61" y="936.90" width="9.35" height="1.30" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4244.34" y="871.06" width="8.00" height="1.11" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4244.34" y="938.14" width="8.00" height="1.11" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4260.90" y="872.11" width="9.35" height="1.30" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4260.90" y="936.90" width="9.35" height="1.30" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4261.58" y="871.06" width="8.00" height="1.11" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4261.58" y="938.14" width="8.00" height="1.11" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4227.02" y="777.86" width="9.35" height="1.30" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4227.02" y="842.64" width="9.35" height="1.30" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4227.70" y="776.80" width="8.00" height="1.11" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4227.70" y="843.89" width="8.00" height="1.11" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4243.61" y="777.86" width="9.35" height="1.30" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4243.61" y="842.64" width="9.35" height="1.30" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4244.34" y="776.80" width="8.00" height="1.11" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4244.34" y="843.89" width="8.00" height="1.11" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4260.90" y="777.86" width="9.35" height="1.30" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4260.90" y="842.64" width="9.35" height="1.30" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4261.58" y="776.80" width="8.00" height="1.11" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <rect x="4261.58" y="843.89" width="8.00" height="1.11" fill="none" stroke-width="1.00" style="--c:#d56a16" class="c" />
+  <polyline points="4265.57,908.51 4265.57,953.09 4197.63,953.09 4197.63,843.71 4188.40,843.71" fill="none" stroke-width="1.40" stroke-linejoin="miter" stroke-linecap="butt" style="--c:#d56a16" class="c" />
+  <line x1="4265.57" y1="895.01" x2="4265.57" y2="815.42" stroke-width="1.40" stroke-linecap="butt" style="--c:#d56a16" class="c" />
+  <polyline points="4265.57,805.78 4265.57,755.72 4771.49,755.59" fill="none" stroke-width="1.40" stroke-linejoin="miter" stroke-linecap="butt" style="--c:#d56a16" class="c" />
+  <polygon points="4177.83,841.55 4177.71,845.86 4198.97,845.86 4199.09,841.55 4177.83,841.55" fill="none" stroke-width="1.40" stroke-linejoin="miter" style="--c:#d56a16" class="c" />
+  <polygon points="4178.32,753.28 4178.20,757.59 4199.46,757.59 4199.58,753.28 4178.32,753.28" fill="none" stroke-width="1.00" stroke-linejoin="miter" style="--c:#d56a16" class="c" />
+  <polyline points="4231.87,908.51 4231.87,834.69 4213.70,834.69 4213.70,788.21 4231.87,788.52 4231.87,755.75 2829.83,755.78 2829.83,836.51" fill="none" stroke-width="1.40" stroke-linejoin="miter" stroke-linecap="butt" style="--c:#118c8e" class="c" />
+  <polyline points="4248.28,776.70 4248.28,755.44 4771.91,755.44" fill="none" stroke-width="1.40" stroke-linejoin="miter" stroke-linecap="butt" style="--c:#118c8e" class="c" />
+ </g>
+ <g id="layer-joints">
+  <polyline points="4200.54,862.04 4203.47,866.44 4203.47,856.52 4200.21,861.71 4197.24,861.71" fill="none" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="butt" style="--c:#653589" class="c" />
+  <polyline points="4233.20,951.45 4237.59,948.52 4227.67,948.52 4232.86,951.78 4232.86,954.75" fill="none" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="butt" style="--c:#653589" class="c" />
+  <polyline points="4293.45,1042.04 4290.52,1037.65 4290.52,1047.57 4293.78,1042.38 4296.76,1042.38" fill="none" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="butt" style="--c:#653589" class="c" />
+  <polyline points="4293.45,772.75 4290.52,768.36 4290.52,778.28 4293.78,773.09 4296.76,773.09" fill="none" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="butt" style="--c:#653589" class="c" />
+  <polyline points="4165.43,752.41 4169.82,749.48 4159.90,749.48 4165.10,752.74 4165.10,755.72" fill="none" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="butt" style="--c:#653589" class="c" />
+  <polyline points="4210.12,752.41 4214.51,749.48 4204.59,749.48 4209.78,752.74 4209.78,755.72" fill="none" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="butt" style="--c:#653589" class="c" />
+  <polyline points="4283.65,752.41 4288.05,749.48 4278.13,749.48 4283.32,752.74 4283.32,755.72" fill="none" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="butt" style="--c:#653589" class="c" />
+  <polyline points="4328.54,752.41 4332.94,749.48 4323.01,749.48 4328.21,752.74 4328.21,755.72" fill="none" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="butt" style="--c:#653589" class="c" />
+  <polyline points="4522.54,752.41 4526.93,749.48 4517.01,749.48 4522.21,752.74 4522.21,755.72" fill="none" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="butt" style="--c:#653589" class="c" />
+  <polygon points="4177.83,841.55 4177.71,845.86 4198.97,845.86 4199.09,841.55 4177.83,841.55 4177.83,841.55" fill="none" stroke-width="0.75" stroke-linejoin="miter" style="--c:#811707" class="c" />
+  <line x1="4178.96" y1="841.57" x2="4178.84" y2="845.98" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4197.87" y1="841.57" x2="4197.75" y2="845.98" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4197.09" y1="841.60" x2="4194.70" y2="845.80" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4197.81" y1="842.45" x2="4195.95" y2="845.80" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4189.57" y1="841.60" x2="4187.19" y2="845.80" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4194.58" y1="841.60" x2="4192.20" y2="845.80" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4187.07" y1="841.60" x2="4184.68" y2="845.80" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4192.08" y1="841.60" x2="4189.69" y2="845.80" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4184.56" y1="841.60" x2="4182.18" y2="845.80" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4182.06" y1="841.60" x2="4179.67" y2="845.80" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4195.83" y1="841.60" x2="4193.45" y2="845.80" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4188.32" y1="841.60" x2="4185.93" y2="845.80" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4193.33" y1="841.60" x2="4190.94" y2="845.80" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4185.81" y1="841.60" x2="4183.43" y2="845.80" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4190.82" y1="841.60" x2="4188.44" y2="845.80" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4183.31" y1="841.60" x2="4180.92" y2="845.80" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4180.80" y1="841.60" x2="4178.90" y2="845.06" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <polygon points="4178.32,753.28 4178.20,757.59 4199.46,757.59 4199.58,753.28 4178.32,753.28 4178.32,753.28" fill="none" stroke-width="0.75" stroke-linejoin="miter" style="--c:#811707" class="c" />
+  <line x1="4179.45" y1="753.30" x2="4179.33" y2="757.71" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4198.36" y1="753.30" x2="4198.24" y2="757.71" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4197.58" y1="753.34" x2="4195.19" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4198.30" y1="754.19" x2="4196.44" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4190.06" y1="753.34" x2="4187.68" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4195.07" y1="753.34" x2="4192.69" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4187.56" y1="753.34" x2="4185.17" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4192.57" y1="753.34" x2="4190.18" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4185.05" y1="753.34" x2="4182.67" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4182.55" y1="753.34" x2="4180.16" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4196.33" y1="753.34" x2="4193.94" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4188.81" y1="753.34" x2="4186.42" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4193.82" y1="753.34" x2="4191.43" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4186.31" y1="753.34" x2="4183.92" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4191.32" y1="753.34" x2="4188.93" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4183.80" y1="753.34" x2="4181.42" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4181.30" y1="753.34" x2="4179.39" y2="756.79" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <polygon points="4293.89,753.28 4293.77,757.59 4315.03,757.59 4315.15,753.28 4293.89,753.28" fill="none" stroke-width="0.75" stroke-linejoin="miter" style="--c:#811707" class="c" />
+  <polygon points="4293.89,753.28 4293.77,757.59 4315.03,757.59 4315.15,753.28 4293.89,753.28 4293.89,753.28" fill="none" stroke-width="0.75" stroke-linejoin="miter" style="--c:#811707" class="c" />
+  <line x1="4295.02" y1="753.30" x2="4294.90" y2="757.71" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4313.92" y1="753.30" x2="4313.80" y2="757.71" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4313.14" y1="753.34" x2="4310.76" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4313.86" y1="754.19" x2="4312.01" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4305.63" y1="753.34" x2="4303.24" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4310.64" y1="753.34" x2="4308.25" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4303.12" y1="753.34" x2="4300.74" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4308.13" y1="753.34" x2="4305.75" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4300.62" y1="753.34" x2="4298.23" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4298.11" y1="753.34" x2="4295.73" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4311.89" y1="753.34" x2="4309.51" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4304.38" y1="753.34" x2="4301.99" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4309.39" y1="753.34" x2="4307.00" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4301.87" y1="753.34" x2="4299.49" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4306.88" y1="753.34" x2="4304.50" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4299.37" y1="753.34" x2="4296.98" y2="757.53" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <line x1="4296.86" y1="753.34" x2="4294.96" y2="756.79" stroke-width="0.75" stroke-linecap="butt" style="--c:#811707" class="c" />
+  <polygon points="4200.10,945.91 4195.53,945.91 4195.53,955.51 4200.10,955.51 4205.14,955.51 4205.14,950.95 4200.10,950.95 4200.10,945.91" fill="none" stroke-width="0.75" stroke-linejoin="miter" style="--c:#811707" class="c" />
+  <polygon points="4200.10,945.91 4195.53,945.91 4195.53,955.51 4200.10,955.51 4205.14,955.51 4205.14,950.95 4200.10,950.95 4200.10,945.91 4200.10,945.91" fill="none" stroke-width="0.85" stroke-linejoin="miter" style="--c:#854406" class="c" />
+  <polygon points="4258.33,950.95 4258.33,955.51 4267.93,955.51 4267.93,950.95 4267.93,945.91 4263.37,945.91 4263.37,950.95 4258.33,950.95" fill="none" stroke-width="0.85" stroke-linejoin="miter" style="--c:#854406" class="c" />
+  <polygon points="4258.33,950.95 4258.33,955.51 4267.93,955.51 4267.93,950.95 4267.93,945.91 4263.37,945.91 4263.37,950.95 4258.33,950.95 4258.33,950.95" fill="none" stroke-width="0.85" stroke-linejoin="miter" style="--c:#854406" class="c" />
+  <polygon points="4224.14,757.80 4224.14,753.24 4233.75,753.24 4233.75,757.80 4233.75,762.84 4229.19,762.84 4229.19,757.80 4224.14,757.80" fill="none" stroke-width="0.85" stroke-linejoin="miter" style="--c:#854406" class="c" />
+  <polygon points="4224.14,757.80 4224.14,753.24 4233.75,753.24 4233.75,757.80 4233.75,762.84 4229.19,762.84 4229.19,757.80 4224.14,757.80 4224.14,757.80" fill="none" stroke-width="0.85" stroke-linejoin="miter" style="--c:#854406" class="c" />
+  <polygon points="4255.62,757.81 4255.62,753.25 4246.02,753.25 4246.02,757.81 4246.02,762.85 4250.58,762.85 4250.58,757.81 4255.62,757.81" fill="none" stroke-width="0.85" stroke-linejoin="miter" style="--c:#854406" class="c" />
+  <polygon points="4255.62,757.81 4255.62,753.25 4246.02,753.25 4246.02,757.81 4246.02,762.85 4250.58,762.85 4250.58,757.81 4255.62,757.81 4255.62,757.81" fill="none" stroke-width="0.85" stroke-linejoin="miter" style="--c:#854406" class="c" />
+  <polygon points="4272.84,757.81 4272.84,753.25 4263.24,753.25 4263.24,757.81 4263.24,762.85 4267.80,762.85 4267.80,757.81 4272.84,757.81" fill="none" stroke-width="0.85" stroke-linejoin="miter" style="--c:#854406" class="c" />
+  <polygon points="4272.84,757.81 4272.84,753.25 4263.24,753.25 4263.24,757.81 4263.24,762.85 4267.80,762.85 4267.80,757.81 4272.84,757.81 4272.84,757.81" fill="none" stroke-width="0.85" stroke-linejoin="miter" style="--c:#854406" class="c" />
+  <polygon points="4258.31,757.81 4258.31,753.25 4267.91,753.25 4267.91,757.81 4267.91,762.85 4263.35,762.85 4263.35,757.81 4258.31,757.81" fill="none" stroke-width="0.85" stroke-linejoin="miter" style="--c:#854406" class="c" />
+  <polygon points="4258.31,757.81 4258.31,753.25 4267.91,753.25 4267.91,757.81 4267.91,762.85 4263.35,762.85 4263.35,757.81 4258.31,757.81 4258.31,757.81" fill="none" stroke-width="0.85" stroke-linejoin="miter" style="--c:#854406" class="c" />
+  <line x1="4401.23" y1="760.14" x2="4401.23" y2="753.11" stroke-width="1.50" stroke-linecap="butt" style="--c:#3B82F6" class="c" />
+  <line x1="4318.49" y1="760.14" x2="4318.49" y2="753.11" stroke-width="1.50" stroke-linecap="butt" style="--c:#3B82F6" class="c" />
+  <line x1="4582.96" y1="760.14" x2="4582.96" y2="753.11" stroke-width="1.50" stroke-linecap="butt" style="--c:#3B82F6" class="c" />
+ </g>
+ <text x="4247.52" y="618.0" text-anchor="middle" font-size="18" fill="rgba(232, 236, 239, 0.34)" letter-spacing="2" class="pid">29</text>
+ <g class="callouts">
+  <circle cx="4085.0" cy="755.5" r="1.4" fill="#989898" class="node" />
+  <polyline points="4085.0,755.5 4058.0,792.0 3925.0,792.0" fill="none" stroke="#989898" stroke-width="0.5" pathLength="1" class="leader" />
+  <text x="3925.0" y="789.80" fill="#B5B5B5" font-weight="500" font-size="6.4" class="lbl">TUBO PVC RIGIDO + CLIP [#653589]</text>
+  <text x="3925.0" y="794.60" fill="rgba(232,236,239,0.55)" font-size="5.4" dominant-baseline="hanging" class="sub">CANALIZZAZIONE PASSANTE SOTTO-TRAVE</text>
+  <circle cx="4188.0" cy="843.5" r="1.4" fill="#811707" class="node" />
+  <polyline points="4188.0,843.5 4156.0,872.0 4015.0,872.0" fill="none" stroke="#c84b38" stroke-width="0.5" pathLength="1" class="leader" />
+  <text x="4015.0" y="869.80" fill="#e06d5b" font-weight="500" font-size="6.4" class="lbl">SNODO MORBIDO [#811707]</text>
+  <text x="4015.0" y="874.60" fill="rgba(232,236,239,0.55)" font-size="5.4" dominant-baseline="hanging" class="sub">RACCORDO FLESSIBILE INGRESSO BOX</text>
+  <circle cx="4290.8" cy="825.0" r="1.4" fill="#d56a16" class="node" />
+  <polyline points="4290.8,825.0 4395.0,825.0 4545.0,825.0" fill="none" stroke="#d56a16" stroke-width="0.55" pathLength="1" class="leader" />
+  <text x="4398.0" y="822.80" fill="#d56a16" font-weight="600" font-size="6.4" class="lbl">SCATOLA DERIVAZIONE 220V [#D56A16]</text>
+  <text x="4398.0" y="827.60" fill="rgba(232,236,239,0.72)" font-size="5.4" dominant-baseline="hanging" class="sub">CONTIENE TRASFORMATORE AC 220V → DC 12V</text>
+  <circle cx="4266.0" cy="905.0" r="1.4" fill="#118c8e" class="node" />
+  <polyline points="4266.0,905.0 4395.0,905.0 4545.0,905.0" fill="none" stroke="#118c8e" stroke-width="0.55" pathLength="1" class="leader" />
+  <text x="4398.0" y="902.80" fill="#18b4b7" font-weight="600" font-size="6.4" class="lbl">USCITA LINEA 12V DC [#118C8E]</text>
+  <text x="4398.0" y="907.60" fill="rgba(232,236,239,0.72)" font-size="5.4" dominant-baseline="hanging" class="sub">DISTRIBUZIONE SU SNODI A 90° E A T [#854406]</text>
+  <circle cx="4298.3" cy="968.0" r="1.4" fill="#fe20fe" class="node" />
+  <polyline points="4298.3,968.0 4395.0,968.0 4545.0,968.0" fill="none" stroke="#fe20fe" stroke-width="0.55" pathLength="1" class="leader" />
+  <text x="4398.0" y="965.80" fill="#fe20fe" font-weight="600" font-size="6.4" class="lbl">DORSALE ETHERNET / ARTNET [#FE20FE]</text>
+  <text x="4398.0" y="970.60" fill="rgba(232,236,239,0.72)" font-size="5.4" dominant-baseline="hanging" class="sub">CALATA DATI VERSO CONSOLE DI CONTROLLO</text>
+ </g>
+</svg>

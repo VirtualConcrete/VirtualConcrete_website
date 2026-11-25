@@ -1,120 +1,393 @@
 <!doctype html>
-<html lang="en">
+<html lang="it">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Virtual Concrete</title>
-<meta name="description" content="Virtual Concrete is a new media art collective working with architecture, light and lasers.">
-<meta name="theme-color" content="#000000">
-<meta property="og:title" content="Virtual Concrete">
-<meta property="og:description" content="New media art collective. Architecture, light, lasers.">
-<meta property="og:type" content="website">
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="assets/site.css">
-<script type="module" src="assets/tui/screen.js"></script>
-<noscript><style>.hero .sr-only { position: static; width: auto; height: auto; clip-path: none; white-space: normal; padding: 0 24px; color: #0f0; font-size: 40px; } .hero h1 { padding-top: 30svh; }</style></noscript>
+<title>Virtual Concrete Studio — Spatial design &amp; tecnologie illuminotecniche applicate</title>
+<meta name="description" content="Progettiamo e realizziamo in laboratorio installazioni luminose, laser e cinetiche su misura — permanenti o temporanee — per architettura, rigenerazione urbana, contenitori culturali ed eventi.">
+<meta name="theme-color" content="#0E0E0E">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/jetbrains-mono-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+<script type="module" src="assets/js/site.js"></script>
+<script type="module" src="assets/js/screen.js"></script>
 </head>
 <body>
-<main>
-  <!-- As tall as the hero plus the screen's scroll: the hero, menu included, stays put meanwhile -->
-  <div class="hero-track" id="hero-track">
-    <section class="hero" id="hero">
-      <nav aria-label="Main">
-        <a href="#work">Work</a>
-        <a href="#lab">Lab</a>
-      </nav>
-      <!-- The text of the 128x64 screen, typed and then scrolled to: edit it here -->
-      <h1 class="sr-only" id="screen-text">VIRTUAL CONCRETE STUDIO</h1>
-      <p class="sr-only" id="screen-text-next">SPATIAL DESIGN &amp; <span lang="it">TECNOLOGIE ILLUMINOTECNICHE APPLICATE</span></p>
-      <!-- Pinned with the hero, shown below the title's black. Encoded from M25-0002_V2-0029.mov: see README -->
-      <video class="hero-video" src="assets/video/hero.mp4" autoplay muted loop playsinline aria-hidden="true"></video>
-      <div class="hero-cover" id="hero-cover"></div>
-      <canvas id="screen" aria-hidden="true"></canvas>
-    </section>
+
+<a class="skip" href="#main">Vai al contenuto</a>
+
+<!-- 00 // OPENING: the title fills the screen; scrolling lifts it off a cellular automaton (site.js),
+     seeded from the same three words and stepping once the page scrolls. Then the statement, full
+     screen too, slides up over the automaton, and both leave together before the bar. -->
+<div class="opening">
+  <canvas class="ca" aria-hidden="true"></canvas>
+  <div class="title-plate" aria-hidden="true">
+    <p class="fill"><span>Virtual</span><span>Concrete</span><span>Studio</span></p>
   </div>
+  <div class="statement">
+    <h1 class="fill" id="hero-h"><span>Spatial Design &amp;</span><span>Tecnologie</span><span>Illuminotecniche</span><span>Applicate</span></h1>
+  </div>
+</div>
 
-  <section class="work" id="work">
-    <p class="label">~/work</p>
-    <article class="project">
-      <a class="shot" href="dumbo/" tabindex="-1" aria-hidden="true">
-        <img src="assets/img/dumbo.webp" width="1280" height="720" alt="" loading="lazy">
-      </a>
-      <div>
-        <h2><a href="dumbo/">DumBO</a></h2>
-        <p>A study for a laser installation, simulated inside a photogrammetry scan of the space. Walk under it in your browser.</p>
-        <dl>
-          <dt>type</dt><dd>installation study</dd>
-          <dt>year</dt><dd>2024</dd>
-          <dt>rig</dt><dd>5 bars, 20 RGB lasers</dd>
-          <dt>shows</dt><dd>6, written in code</dd>
-        </dl>
-        <a class="enter" href="dumbo/">Enter the simulation →</a>
+<!-- 00 // STICKY COMMAND BAR -->
+<header class="bar">
+  <div class="bar-in wrap">
+    <a class="bar-id" href="#top">
+      <span class="bar-name">Virtual Concrete Studio</span>
+    </a>
+    <nav class="bar-nav" aria-label="Sezioni">
+      <a class="mono" href="#scope"><span class="n">01</span>Scope</a>
+      <a class="mono" href="#works"><span class="n">02</span>Works &amp; PoCs</a>
+      <a class="mono" href="#technology"><span class="n">03</span>Technology</a>
+      <a class="mono" href="#engagement"><span class="n">04</span>Commission</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- 01 // HERO: a view of its own, the copy on the left and the 64x128 LED screen on the right
+       (screen.js: a one-dimensional cellular automaton, scrolling) -->
+  <section class="hero wrap" id="top" aria-label="Lo studio">
+    <div class="grid hero-grid">
+      <div class="hero-copy">
+        <p class="mono eyebrow"><i class="dot" aria-hidden="true"></i>Architectural light systems &amp; spatial engineering</p>
+        <p class="lead">Progettiamo e realizziamo in laboratorio installazioni luminose, laser e cinetiche su misura — permanenti o temporanee — per architettura, rigenerazione urbana, contenitori culturali ed eventi.</p>
+        <p class="body">Uniamo prototipazione hardware, software proprietario e sperimentazione sui materiali per trasformare le architetture esistenti in asset distintivi e misurabili.</p>
+        <div class="ctas">
+          <a class="btn btn-secondary" href="#works">Esplora progetti &amp; R&amp;D</a>
+        </div>
+      </div>
+      <div class="hero-screen" aria-hidden="true">
+        <canvas class="led"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 // OPERATIONAL SCOPE -->
+  <section class="section wrap" id="scope" aria-labelledby="scope-h">
+    <header class="sec-head sec-big">
+      <p class="mono sec-n">01 //</p>
+      <h2 id="scope-h"><span>Operational Scope</span></h2>
+      <p class="sec-desc">Infrastrutture visive modulari e riprogrammabili concepite per valorizzare le architetture esistenti senza opere edili invasive.</p>
+    </header>
+
+    <div class="cells cells-3 plain">
+      <article class="cell card">
+        <p class="mono idx">01.1 //</p>
+        <h3>Permanent architectural &amp; urban systems</h3>
+        <p class="body">Rigenerazione di facciate industriali, spazi monumentali e infrastrutture civiche tramite sistemi ottici non invasivi e superfici fotoluminescenti attivate da sorgenti UV calibrate (zero impatto visivo diurno).</p>
+      </article>
+      <article class="cell card">
+        <p class="mono idx">01.2 //</p>
+        <h3>Modular spatial installations</h3>
+        <p class="body">Sculture cinetiche luminose, griglie laser e scenografie spaziali site-specific riprogrammabili dal giorno alla notte per fondazioni, musei, flagship store ed eventi istituzionali.</p>
+      </article>
+      <article class="cell card">
+        <p class="mono idx">01.3 //</p>
+        <h3>Proprietary R&amp;D &amp; custom hardware</h3>
+        <p class="body">Progettazione in laboratorio di sistemi di controllo ottico proprietari, integrazione protocolli industriali (DMX, ArtNet, OSC) e sviluppo generativo Edge AI gestibile dallo staff interno.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 03 // SELECTED WORKS & R&D POCS: 4 rows, 70% visual / 30% datasheet -->
+  <section class="section wrap" id="works" aria-labelledby="works-h">
+    <header class="sec-head sec-big">
+      <p class="mono sec-n">02 //</p>
+      <h2 id="works-h"><span>Selected Works &amp;</span><span>R&amp;D PoCs</span></h2>
+      <p class="sec-desc">Validazione sul campo su grandi campate industriali, progettazione esecutiva 3D e prototipazione fotonica di laboratorio.</p>
+    </header>
+
+    <article class="work" aria-labelledby="w1">
+      <div class="work-head">
+        <div>
+          <p class="mono idx">02.1 // 04</p>
+          <h3 id="w1">Matrice Laser Architetturale (Ex Dumbo, Bologna)</h3>
+        </div>
+        <p class="body work-sum">Progettazione esecutiva completata su coperture industriali con simulazione fotometrica e 3D integrale.</p>
+      </div>
+      <!-- Tavola 4 alone, full width; the render and the Tavola 0-B plate wait for the project page
+           (assets/img/dumbo.*, assets/plates/zoom-01.svg; the 0-B legend markup is in draft_2).
+           Grey at rest; while the mouse moves, the colours, title block and crosshair (site.js, .is-live).
+           The datasheet in one row just under it. Plates: tools/plate2svg.py from media/DumBO/ -->
+      <div class="cells work-row work-full">
+        <div class="cell work-media stage" data-stage>
+          <div class="media stage-view" tabindex="0" aria-label="Ex Dumbo, Tavola 4 · Zoom 02. Muovi il mouse per vedere layer e annotazioni.">
+            <figure class="frame is-active">
+              <div class="plate" data-src="assets/plates/zoom-02.svg"></div>
+              <figcaption class="info">
+                <dl class="br tblock">
+                  <div><dt>Tavola / Rif.</dt><dd>Tavola 4 // Zoom 02</dd></div>
+                  <div><dt>Nodo</dt><dd>Pilastro 18</dd></div>
+                </dl>
+              </figcaption>
+            </figure>
+
+            <div class="xh" aria-hidden="true"><i class="xh-v"></i><i class="xh-h"></i><span class="xh-l"></span></div>
+          </div>
+        </div>
+      </div>
+      <dl class="specs specs-row">
+        <div><dt>TYPOLOGY</dt><dd>PERMANENT · 3D EXECUTIVE DESIGN</dd></div>
+        <div><dt>SURFACE</dt><dd>1.600 SQM MODULAR INDUSTRIAL ROOFING</dd></div>
+        <div><dt>INFRASTRUCTURE</dt><dd>130+ CALIBRATED RGB LASER SOURCES</dd></div>
+        <div class="status"><dt>STATUS</dt><dd><i class="dot" aria-hidden="true"></i>3D SIMULATION &amp; CAD SCHEMATICS READY</dd></div>
+      </dl>
+    </article>
+
+    <!-- The other three visuals: drop assets/img/link2.webp, exdynamo.webp, galvo-uv.webp
+         (16:9, cropped to fit) and they replace the placeholder; until then it stays. -->
+    <article class="work" aria-labelledby="w2">
+      <div class="work-head">
+        <div>
+          <p class="mono idx">02.2 // 04</p>
+          <h3 id="w2">Sistemi Atmosferici e Luminosi (Link 2.0, Bologna)</h3>
+        </div>
+        <p class="body work-sum">Rilevazioni, test tecnici e installazioni realizzate dal vivo per eventi e studi scenografici su grandi campate.</p>
+      </div>
+      <!-- Link 2.0: no frame. Across the whole window: the footage from its left edge, then a panel on the page
+           background to its right edge holding the datasheet and PLAY / PAUSE; the footage's black is the page's
+           (screen blend), so the light alone draws its shape. It plays while in view (site.js; not
+           with reduced motion). assets/video/link2.mp4 = the first site's hero.mp4, from
+           M25-0002_V2-0029.mov; the poster is its frame 37. -->
+      <div class="bleed-media">
+        <div class="bleed-video">
+          <video id="link2-video" src="assets/video/link2.mp4" poster="assets/video/link2-poster.webp" width="1920" height="1080" muted loop playsinline preload="metadata" data-autoplay aria-label="Link 2.0, Bologna: fascio laser nella nebbia su grande campata"></video>
+        </div>
+        <div class="bleed-panel">
+          <dl class="specs specs-stack">
+            <div><dt>TYPOLOGY</dt><dd>TEMPORARY · FIELD VALIDATED DEPLOYMENT</dd></div>
+            <div><dt>SURFACE</dt><dd>UP TO 4.000 SQM LARGE-SPAN VOLUME</dd></div>
+            <div><dt>INFRASTRUCTURE</dt><dd>ATMOSPHERIC, KINETIC &amp; OPTICAL CONTROL</dd></div>
+            <div><dt>STATUS</dt><dd><i class="dot" aria-hidden="true"></i>LIVE FIELD TESTS &amp; EXECUTION COMPLETED</dd></div>
+          </dl>
+          <button class="btn btn-secondary" type="button" aria-controls="link2-video" data-play>Play</button>
+        </div>
       </div>
     </article>
 
-    <!-- Thumbnails: drop them in assets/img/ with these names; any aspect ratio, cropped to 16:9 -->
-    <article class="project">
-      <a class="shot" href="exdynamo/" tabindex="-1" aria-hidden="true">
-        <img src="assets/img/exdynamo.webp" width="1280" height="720" alt="" loading="lazy">
-      </a>
-      <div>
-        <h2><a href="exdynamo/">ExDynamo</a></h2>
-        <dl>
-          <dt>year</dt><dd>2025</dd>
-        </dl>
-        <a class="enter" href="exdynamo/">See the project →</a>
+    <article class="work" aria-labelledby="w3">
+      <div class="work-head">
+        <div>
+          <p class="mono idx">02.3 // 04</p>
+          <h3 id="w3">Scultura Cinetica Identitaria (Ex Dynamo, Bologna)</h3>
+        </div>
+        <p class="body work-sum">Studio tecnico-scenografico per un'installazione permanente di branding architetturale in spazio pubblico.</p>
+      </div>
+      <div class="cells work-row">
+        <div class="cell work-media">
+          <div class="media slot">
+            <span class="mono slot-l" aria-hidden="true">Ex Dynamo // 16:9</span>
+            <span class="mono slot-r" aria-hidden="true">Immagine in arrivo</span>
+            <img src="assets/img/exdynamo.webp" width="1600" height="900" alt="Ex Dynamo, Bologna: pre-visualizzazione della scultura cinetica" loading="lazy" data-optional>
+          </div>
+        </div>
+        <div class="cell sheet">
+          <p class="mono sheet-h">Datasheet</p>
+          <dl class="specs">
+            <div><dt>TYPOLOGY</dt><dd>PERMANENT · ENGINEERED CONCEPT</dd></div>
+            <div><dt>CONTEXT</dt><dd>PUBLIC SPACE ARCHITECTURAL BRANDING</dd></div>
+            <div><dt>INFRASTRUCTURE</dt><dd>MOTORIZED STRUCTURE + RGB LASER ARRAY</dd></div>
+            <div><dt>STATUS</dt><dd><i class="dot" aria-hidden="true"></i>ENGINEERED CONCEPT &amp; PRE-VIZ COMPLETED</dd></div>
+          </dl>
+        </div>
       </div>
     </article>
 
-    <article class="project">
-      <a class="shot" href="galvoscanners/" tabindex="-1" aria-hidden="true">
-        <img src="assets/img/galvoscanners.webp" width="1280" height="720" alt="" loading="lazy">
-      </a>
-      <div>
-        <h2><a href="galvoscanners/">Galvoscanners</a></h2>
-        <dl>
-          <dt>rig</dt><dd>galvo scanners</dd>
-        </dl>
-        <a class="enter" href="galvoscanners/">See the project →</a>
+    <article class="work" aria-labelledby="w4">
+      <div class="work-head">
+        <div>
+          <p class="mono idx">02.4 // 04</p>
+          <h3 id="w4">Mappatura Vettoriale Galvo UV (380–405 nm)</h3>
+        </div>
+        <p class="body work-sum">Ricerca e sviluppo di laboratorio per sistemi di proiezione reattiva a basso consumo applicabili a superfici architettoniche grezze.</p>
       </div>
-    </article>
-
-    <article class="project">
-      <a class="shot" href="link2/" tabindex="-1" aria-hidden="true">
-        <img src="assets/img/link2.webp" width="1280" height="720" alt="" loading="lazy">
-      </a>
-      <div>
-        <h2><a href="link2/">Link2.0</a></h2>
-        <dl>
-          <dt>rig</dt><dd>3 moving heads, 3 smoke machines</dd>
-        </dl>
-        <a class="enter" href="link2/">See the project →</a>
+      <div class="cells work-row">
+        <div class="cell work-media">
+          <div class="media slot">
+            <span class="mono slot-l" aria-hidden="true">Galvo UV // 16:9</span>
+            <span class="mono slot-r" aria-hidden="true">Immagine in arrivo</span>
+            <img src="assets/img/galvo-uv.webp" width="1600" height="900" alt="Mappatura vettoriale galvo UV su superficie fotoluminescente" loading="lazy" data-optional>
+          </div>
+        </div>
+        <div class="cell sheet">
+          <p class="mono sheet-h">Datasheet</p>
+          <dl class="specs">
+            <div><dt>TYPOLOGY</dt><dd>PERMANENT &amp; TEMPORARY · LAB R&amp;D POC</dd></div>
+            <div><dt>SPECTRUM</dt><dd>380–405 NM UV GALVO-SCANNER</dd></div>
+            <div><dt>SUBSTRATE</dt><dd>PHOTO-REACTIVE &amp; PHOSPHORESCENT MATRICES</dd></div>
+            <div><dt>STATUS</dt><dd><i class="dot" aria-hidden="true"></i>HARDWARE PROTOTYPING &amp; MATERIAL BENCH TESTS</dd></div>
+          </dl>
+        </div>
       </div>
     </article>
   </section>
 
-  <section class="lab" id="lab">
-    <p class="label">~/lab</p>
-    <ul>
-      <li>
-        <a href="https://github.com/VirtualConcrete/HUB12Controller">
-          <strong>HUB12 Controller</strong>
-          <span>DMX driver for HUB12 LED displays</span>
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/VirtualConcrete/SmokeMachine">
-          <strong>Smoke Control</strong>
-          <span>DMX control for smoke and fog machines</span>
-        </a>
-      </li>
-    </ul>
+  <!-- 04 // TECHNOLOGY & WORKFLOW (the safety standards are left out of this draft) -->
+  <section class="section wrap" id="technology" aria-labelledby="technology-h">
+    <header class="sec-head grid">
+      <p class="mono sec-n">03 //</p>
+      <h2 id="technology-h">Technology &amp; workflow</h2>
+      <p class="sec-desc">Controllo interno dell'intera filiera hardware, ottica e software.</p>
+    </header>
+
+    <p class="mono sub-h">A // Tech stack</p>
+    <div class="cells cells-2">
+      <article class="cell card">
+        <h3>Hardware &amp; materials</h3>
+        <p class="body">Custom PCB e microcontrollori per matrici LED (HUB12/HUB75) e attuatori meccanici; sorgenti laser RGB e UV (380–405 nm) abbinate allo studio chimico-fisico di superfici foto-reattive e fotoluminescenti ad alta efficienza energetica.</p>
+      </article>
+      <article class="cell card">
+        <h3>Software &amp; Edge AI</h3>
+        <p class="body">Logica real-time TouchDesigner e ArtNet ad alta velocità; post-training (LoRA) su modelli sub-1B eseguiti localmente in ambiente edge e Neural Cellular Automata per la generazione autonoma di preset adattivi.</p>
+      </article>
+    </div>
+
+    <p class="mono sub-h">B // Operational workflow</p>
+    <ol class="cells cells-5 flow">
+      <li class="cell"><p class="mono idx">01 //</p><h3>3D survey</h3><p class="body">Scansione spaziale e analisi dei punti di carico.</p></li>
+      <li class="cell"><p class="mono idx">02 //</p><h3>Simulation</h3><p class="body">Modellazione 3D/CAD e pre-visualizzazione fotometrica.</p></li>
+      <li class="cell"><p class="mono idx">03 //</p><h3>Bench test</h3><p class="body">Sviluppo firmware, calibrazione Edge AI e stress-test hardware.</p></li>
+      <li class="cell"><p class="mono idx">04 //</p><h3>Integration</h3><p class="body">Installazione in loco, posa cablaggi e rete ArtNet/DMX.</p></li>
+      <li class="cell"><p class="mono idx">05 //</p><h3>Handover</h3><p class="body">Collaudo, rilascio preset generativi e formazione staff.</p></li>
+    </ol>
   </section>
+
+  <!-- 05 // ENGAGEMENT MODELS & SECTORS -->
+  <section class="section wrap" id="engagement" aria-labelledby="engagement-h">
+    <header class="sec-head grid">
+      <p class="mono sec-n">04 //</p>
+      <h2 id="engagement-h">Engagement models &amp; sectors</h2>
+      <p class="sec-desc">Formule contrattuali flessibili (CapEx / OpEx) per committenze pubbliche, culturali e corporate.</p>
+    </header>
+
+    <div class="grid lists">
+      <div class="list">
+        <h3 class="mono list-h"><span>Target sectors</span><span class="n">04</span></h3>
+        <dl class="rows">
+          <div><dt>Contenitori Culturali &amp; Venue</dt><dd>Trasformazione della sede in un'icona visiva riconoscibile e riprogrammabile.</dd></div>
+          <div><dt>Spazi Industriali Riqualificati &amp; PA</dt><dd>Valorizzazione di ex aree industriali e rigenerazione urbana preservando l'integrità diurna dell'immobile.</dd></div>
+          <div><dt>Agenzie Creative &amp; Brand</dt><dd>Tecnologie custom e prototipazione di laboratorio per lanci di prodotto e brand activation.</dd></div>
+          <div><dt>Agenzie di Eventi</dt><dd>Allestimenti temporanei e dispositivi visivi dinamici su misura per sfilate, festival e convention.</dd></div>
+        </dl>
+      </div>
+      <div class="list">
+        <h3 class="mono list-h"><span>Contractual models</span><span class="n">03</span></h3>
+        <dl class="rows">
+          <div><dt><span class="mono model">Model A //</span>Turnkey CapEx (permanente)</dt><dd>Progettazione, sviluppo e installazione chiavi in mano di infrastrutture visive su misura espandibili nel tempo.</dd></div>
+          <div><dt><span class="mono model">Model B //</span>Bespoke production (temporaneo)</dt><dd>Prototipazione e realizzazione su commessa di dispositivi visivi e sculture cinetiche per singoli eventi o mostre.</dd></div>
+          <div><dt><span class="mono model">Model C //</span>Generative software &amp; service</dt><dd>Licenza per l'evoluzione autonoma dei preset visivi (Edge AI / TouchDesigner) e manutenzione programmata.</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- 06 // CORE TEAM & GOVERNANCE -->
+  <section class="section wrap" id="team" aria-labelledby="team-h">
+    <header class="sec-head grid">
+      <p class="mono sec-n">05 //</p>
+      <h2 id="team-h">Core team &amp; governance</h2>
+    </header>
+
+    <table class="team">
+      <caption class="sr-only">Core team di Virtual Concrete Studio</caption>
+      <thead class="sr-only">
+        <tr><th scope="col">Nome</th><th scope="col">Ruolo</th><th scope="col">Competenze</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Corrado Zito</th>
+          <td class="role">Founder, Artistic Director &amp; Executive Producer</td>
+          <td class="body">Direzione artistica e creativa, spatial design, coordinamento esecutivo di produzione e relazione con la committenza.</td>
+        </tr>
+        <tr>
+          <th scope="row">Emiliano Querzani</th>
+          <td class="role">Founder &amp; Technical Director (Hardware &amp; Materials)</td>
+          <td class="body">Ricerca applicata chimico-fisica sui materiali (superfici foto-reattive e proprietà ottiche), progettazione hardware e PCB custom, reverse engineering e sicurezza laser/strutturale.</td>
+        </tr>
+        <tr>
+          <th scope="row">Giovanni Basso</th>
+          <td class="role">Founder &amp; Creative Coder (Software &amp; Edge AI)</td>
+          <td class="body">Sviluppo firmware su microcontrollori, architettura real-time TouchDesigner/ArtNet, post-training LoRA su modelli sub-1B e simulazione Neural Cellular Automata.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
 </main>
 
-<footer>
-  <p>Virtual Concrete</p>
-  <a href="https://github.com/VirtualConcrete">GitHub ↗</a>
+<!-- 07 // TECHNICAL INTAKE & COMMISSIONING FOOTER -->
+<footer class="intake" id="commission">
+  <div class="wrap">
+    <div class="intake-grid">
+      <div class="intake-deck">
+        <h2>Studio capability &amp; technical deck</h2>
+        <!-- The dossier: put the PDF at this path -->
+        <a class="btn btn-secondary" href="assets/docs/virtual-concrete-technical-dossier.pdf" target="_blank" rel="noopener">Download technical dossier (PDF) <span aria-hidden="true">↗</span></a>
+        <dl class="specs contacts">
+          <div><dt>WEB</dt><dd>studio.virtualconcrete.eu</dd></div>
+          <div><dt>STUDIO</dt><dd>Bologna, Emilia-Romagna, IT</dd></div>
+        </dl>
+      </div>
+
+      <!-- data-endpoint: Giovanni's endpoint, still to set. Field names may need aligning to it. -->
+      <form class="form" id="contact-form" method="post" action="" data-endpoint="">
+        <div class="form-head">
+          <h2>Attiva uno studio di fattibilità preliminare</h2>
+          <p class="body">Richiedi una valutazione tecnica o un sopralluogo 3D per il tuo spazio o evento.</p>
+        </div>
+
+        <div class="field full">
+          <label for="f-name">Nome e Referente / Organizzazione <span class="req">(obbligatorio)</span></label>
+          <input id="f-name" name="name" type="text" required autocomplete="organization">
+        </div>
+        <div class="field">
+          <label for="f-email">Email Aziendale <span class="req">(obbligatorio)</span></label>
+          <input id="f-email" name="email" type="email" required autocomplete="email">
+        </div>
+        <div class="field">
+          <label for="f-sector">Ambito</label>
+          <select id="f-sector" name="sector">
+            <option>Contenitore Culturale / Venue</option>
+            <option>Spazio Industriale Riqualificato</option>
+            <option>Agenzia Creativa / Brand</option>
+            <option>Agenzia di Eventi</option>
+            <option>Altro</option>
+          </select>
+        </div>
+        <fieldset class="field full">
+          <legend>Tipologia Intervento</legend>
+          <div class="radios">
+            <label for="f-type-perm"><input id="f-type-perm" type="radio" name="type" value="Infrastruttura Permanente" checked><span>Infrastruttura Permanente</span></label>
+            <label for="f-type-temp"><input id="f-type-temp" type="radio" name="type" value="Allestimento Temporaneo / Pezzo Unico"><span>Allestimento Temporaneo / Pezzo Unico</span></label>
+          </div>
+        </fieldset>
+        <div class="field">
+          <label for="f-area">Metratura Indicativa (mq)</label>
+          <input id="f-area" name="area_sqm" type="text" inputmode="numeric">
+        </div>
+        <div class="field full">
+          <label for="f-notes">Note Tecniche o Link a Planimetrie / Rilievi <span class="req">(obbligatorio)</span></label>
+          <textarea id="f-notes" name="notes" rows="6" required></textarea>
+        </div>
+        <div class="hp" aria-hidden="true">
+          <label for="f-website">Lascia vuoto questo campo</label>
+          <input id="f-website" name="website" type="text" tabindex="-1" autocomplete="off">
+        </div>
+        <button class="btn btn-primary submit" type="submit">Invia richiesta di fattibilità <span aria-hidden="true">→</span></button>
+        <p class="mono form-status" role="status"></p>
+      </form>
+    </div>
+
+    <div class="mono foot-row">
+      <span>© 2026 Virtual Concrete Studio</span>
+      <span>Bologna, IT // 44.49° N</span>
+      <a href="#top">Torna su <span aria-hidden="true">↑</span></a>
+    </div>
+  </div>
 </footer>
+
 </body>
 </html>
